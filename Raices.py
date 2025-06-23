@@ -25,9 +25,9 @@ def calcular_raices(a, b, c): # Parametros: a, b, c son los coeficientes de la e
 # Esta función se ejecuta cuando el script se corre directamente
 def main():
     print("Ingrese los coeficientes de la función cuadrática (ax^2 + bx + c):")
-    a = float(input("a: ")) # Solicita el coeficiente 'a'
-    b = float(input("b: ")) # Solicita el coeficiente 'b'
-    c = float(input("c: ")) # Solicita el coeficiente 'c'
+    a = float(input("Ingrese coeficiente a: ")) # Solicita el coeficiente 'a'
+    b = float(input("Ingrese coeficiente b: ")) # Solicita el coeficiente 'b'
+    c = float(input("Ingrese coeficiente c: ")) # Solicita el coeficiente 'c'
 
     if a == 0: # Verifica si 'a' es cero, lo cual no es válido para una función cuadrática
 
